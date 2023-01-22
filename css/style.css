@@ -1,0 +1,689 @@
+
+/*----------------------------------------------- базовые стили ----------------*/
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+html, body {
+	height: 100%;
+	font-family: 'Philosopher', sans-serif;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+	max-width: 1200px;
+	
+	
+	
+
+}
+
+:focus, :active {
+	outline: none; }
+
+a:focus, a:active {
+	outline: none; }
+
+	ul li {
+		list-style: none; }
+	
+	a{
+		list-style: none;
+		text-decoration: none;
+	}
+
+	
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: inherit;
+	font-size: inherit; }
+
+@font-face {
+	font-family: 'Roboto';
+	src: url("fonts/roboto.eot");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+	
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url("fonts/roboto.eot");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+	
+}
+
+@font-face {
+	font-family: 'Philosopher';
+	src: url("fonts/philosopher.eot");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Philosopher';
+	src: url("fonts/philosopher.eot");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Philosopher';
+	src: url("fonts/philosopher.eot");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+/*------------- Header-----------------------------------------------*/
+
+
+.ico1 {
+	max-width: 30px;
+	margin-right: 48px;
+}
+
+
+
+.go-over > a   {
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 400;
+	text-decoration: underline;
+	color: #d4d0c8;
+
+}
+
+.go-over > a:hover {
+	color : #eeeeed;
+	cursor: pointer;
+	
+
+}
+
+.information {
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 38px;
+	background-color: #008DAA;
+
+	
+}
+
+
+/* Navigation list --------------------------------------*/
+
+
+
+.information-middle {
+	padding-top: 24px;
+}
+
+.navigation {
+	margin-bottom: 127px;
+}
+.navigation-list {
+	display:flex;
+	
+}
+
+.navigation-list li {
+	margin-left: 40px;
+}
+
+
+
+
+
+.navigation-list li::before {
+	content: " ";
+	display: block;
+	width: 7px;
+	height : 7px;
+	border-radius: 3px;
+	background-color: #06bac5;
+	transform: translate( -25px , 15px);
+	
+} 
+
+
+
+
+.link-nav1 {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #06bac5;
+	
+}
+
+.link-nav1:hover {
+	color:#eb477b;
+}
+
+
+.pt {
+	font-family: Philosopher;
+	font-size: 55px;
+	line-height: 72px;
+	font-weight: 400;
+	color: #005c7b;
+	margin-bottom: 52px;
+}
+
+.pt2 {
+	font-family: Philosopher;
+	font-size: 55px;
+	line-height: 72px;
+	font-weight: 400;
+	color: #005c7b;
+	
+}
+
+.promo {
+	padding-bottom: 100px;
+}
+
+.promo-picture {
+	margin-top: -80px;
+}
+
+.promo-subtext {
+	padding-top: 122px;
+
+}
+
+.training {
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #005c7b;
+}
+
+
+
+
+.promo-btn {
+	margin-left: 140px;
+	margin-top: 58px;
+	padding: 17px 20px 17px 20px;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #eeeeed;
+	background-color: #005c7b;
+	max-width: 315px;
+	border-radius: 30px;
+}
+
+.promo-btn:hover {
+	background-color:  #eb477b;
+
+}
+
+.promo-btn>a{
+	color: #eeeeed;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #eeeeed;
+
+}
+
+/* Блок о курсе и преимуществах ------------------------------------*/
+
+.abouttext {
+	font-family: Philosopher;
+	font-size: 60px;
+	line-height: 60px;
+	font-weight: 700;
+	color: #005c7b;
+	text-transform: uppercase;
+	padding-bottom: 115px;
+
+}
+
+
+.aboutfeatures-text {
+	font-size: 24px;
+	line-height: 30px;
+	color: #005c7b;
+	text-align: justify;
+}
+
+.aboutfeatures-text2 {
+	font-size: 24px;
+	line-height: 30px;
+	color: #005c7b;
+	text-align: justify;
+	
+	
+}
+
+
+/*------------------------------Преимущества */
+
+.aboutfeaturesmain {
+	padding-top: 121px;
+	padding-bottom: 180px;
+}
+
+.docs {
+	font-family: Philosopher;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #005c7b;
+	margin-bottom: 24px;
+	text-align: center;
+	
+
+}
+
+.docs-text {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #008daa;
+	max-width: 260px;
+	text-align: center;
+	transform: translate(60px , 0px);
+	
+
+}
+
+.docs-text2 {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #008daa;
+	max-width: 278px;
+
+	text-align: center;
+	transform: translate(60px , 0px);
+}
+
+.docs-text3 {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #008daa;
+	max-width: 278px;
+	text-align: center;
+	transform: translate(60px , 0px);
+}
+
+
+.item-image {
+	padding-bottom: 45px;
+	text-align: center;
+}
+/*----------------Cписок преимущевств -------------------------------------*/
+
+.color-block-perspectives {
+	width: 100%;
+	background-color: #eeeeed;
+}
+
+
+.perspectives {
+	padding-top: 140px;
+	background-color: #eeeeed;
+}
+
+.perblock {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 300px;
+	
+}
+
+.fa-check-circle {
+	margin-right: 45px;
+}
+
+.perspectives-list {
+	font-size: 30px;
+	line-height: 48px;
+	color: #005c7b;
+	padding-bottom: 40px;
+	
+	
+
+
+}
+
+.permaintext {
+	font-family: Philosopher;
+	font-size: 60px;
+	line-height: 60px;
+	font-weight: 700;
+	color: #005c7b;
+	text-align: center;
+	margin-bottom: 76px;
+	
+}
+
+/*----------------------------------------Аккордеон с вопросами ---------------------------------*/
+
+
+.accord-hh {
+	font-family: Philosopher;
+	font-size: 60px;
+	line-height: 60px;
+	font-weight: 700;
+	color: #005c7b;
+	text-align: center;
+	margin-bottom: 77px;
+	margin-top: 142px;
+}
+
+.hgreen {
+	font-family: Philosopher;
+	font-size: 24px;
+	line-height: 1;
+	font-weight: 700;
+	color: #008daa;
+	
+}
+
+.hgreen:hover{
+	text-decoration: underline;
+}
+
+
+.hgreen2 {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 400;
+	font-style: italic;
+	color: #005c7d;
+}
+
+
+
+.questions {
+	margin-top: 60px;
+	margin-bottom: 180px;
+
+	
+}
+
+.dontknow {
+	font-family: Philosopher;
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: 700;
+	color: #008daa;
+	text-align: center;
+	padding-bottom: 46px;
+}
+
+.askme {
+	text-align: center;
+	padding-bottom: 140px;
+	
+}
+
+.asklink {
+	font-family: Philosopher;
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: 700;
+	
+	color: #005c7b;
+}
+
+.asklink:hover{
+	color:  #eb477b;
+	text-decoration: underline;
+
+}
+
+.asklink:after{
+	content:"";
+	display: block;
+	width : 260px;
+	height: 3px;
+	background-color: #005c7b;
+	transform: translate(460px, 10px);
+
+}
+
+
+.accordion-button:not(.collapsed) {
+	background-color: #fff;
+}
+
+.accordion-button::after {
+	
+	position: absolute;
+	left: -20px;
+	top: 20px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 12px 10px 0 10px;
+	border-color: #1477a1 transparent transparent transparent;
+
+
+
+}
+
+/*-------------------------------------Блок с отзывами-------------------------------*/
+
+
+
+.review-h {
+	font-family: Philosopher;
+	font-size: 60px;
+	line-height: 60px;
+	font-weight: 700;
+	color: #005c7b;
+	text-align: center;
+	margin-top: 250px;
+	margin-bottom: 120px;
+}
+
+
+.bbb {
+	background-color: #eeeeed;
+	width: 100%;
+	padding-bottom: 200px;
+}
+
+
+.review-comment {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 400;
+	font-style: italic;
+	color: #005c7b;
+	text-align:justify;
+
+	
+}
+
+.avatar {
+	margin-top: 16px;
+	display: inline-block;
+	transform: translate(310px , 0px);
+	border-radius: 100px;
+	margin-bottom: 27px;
+	max-width: 181px;
+   
+}
+
+.avatar-text {
+	font-family: Philosopher;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #008daa;
+	text-align: center;
+}
+
+.av2 {
+	max-width: 150px;
+	border-radius:150px;
+}
+
+.av3 {
+	max-width: 150px;
+	border-radius:150px;
+}
+
+.carousel-control-prev-icon {
+	background-color : transparent;
+	border-radius: 22px;
+	display: block;
+	position: absolute;
+	left: -100px;
+	top: 100px;
+	width: 45px;
+	height: 45px;
+	
+	border: 6px solid #d4d0c8;
+
+	background-image:url("..//img/chevron-left-solid.svg")
+}
+
+
+
+
+
+.carousel-control-next-icon {
+	background-color : transparent;
+	border-radius: 22px;
+	display: block;
+	position: absolute;
+	right: -100px;
+	top: 100px;
+	width: 45px;
+	height: 45px;
+	border: 6px solid #d4d0c8;
+	
+	background-image: url("../img/chevron-right-solid.svg");
+	
+
+}
+
+/*----------------------------------------Блок связаться с нами---------------------------------------*/
+
+.callus {
+	padding-top: 141px;
+	padding-bottom: 210px;
+}
+
+
+
+.call-maintext {
+	text-align: center;
+	font-family: Philosopher;
+	font-size: 60px;
+	line-height: 60px;
+	font-weight: 700;
+	color: #005c7d;
+	margin-bottom: 160px;
+}
+
+.longerarrow {
+	width: 251px;
+	display: block;
+	transform: translate(0px, -40px);
+	
+	
+}
+
+.sera {
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 500;
+	color: #005c7d;
+}
+
+.sera2 {
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 500;
+	text-decoration: underline;
+	color: #008daa;
+}
+
+.sera2:hover {
+	color:#eb477b;
+}
+
+
+.social-h {
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 500;
+	color: #005c7d;
+	text-align: center;
+	margin-bottom: 64px;
+}
+
+
+
+.soc-i {
+	font-size: 60px;
+	margin-right: 100px;
+	color: #008daa;
+
+}
+
+.soc-i:hover {
+	color:#eb477b;
+}
+
+
+.social-media {
+	display: flex;
+	justify-content: center;
+}
+
+
+.education {
+	font-size: 24px;
+	line-height: 30px;
+	color: #eeeeed;
+	margin-bottom: 10px;
+}
+
+.edu2 {
+	font-size: 24px;
+	line-height: 30px;
+	color: #eeeeed;
+	margin-bottom: 10px;
+}
+
+.edu333 {
+	font-size: 18px;
+	color: #eeeeed;
+	text-decoration: underline;
+}
+
+.edu333:hover {
+	color:#eb477b;
+}
+
+
+.footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #005c7b;
+	width: 100%;
+}
